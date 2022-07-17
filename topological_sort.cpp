@@ -49,3 +49,17 @@ int main()
     topo(adj,visited,n);
     return 0;
 }
+
+
+/*SAMPLE INPUT : 
+   6 6
+   5 0
+   5 1
+   4 0
+   4 2
+   2 3
+   3 1
+   
+   
+   OUTPUT : 5 4 2 3 1 0*/
+
