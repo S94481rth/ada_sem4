@@ -15,6 +15,7 @@ int knapSack(int W, int wt[], int val[], int n)
 		}
 	}
 	return dp[W];
+}
 int main()
 {
 	int val[] = { 60, 100, 120 };
